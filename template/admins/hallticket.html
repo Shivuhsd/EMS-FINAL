@@ -1,0 +1,78 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container py-5">
+        <div class="h4">Hall Ticket Scheduling And Generation Panel</div>
+        <form action="" method="POST" class="form-control">
+            {% csrf_token %}
+           
+            <label for="">Department</label>
+            <input type="text" value="{{dept.name}}" class="form-control" disabled><br>
+
+            <label for="">Course</label>
+            <input type="text" value="{{cor.name}}" class="form-control" disabled><br>
+
+            {% if selsem %}    
+
+            <label for="">Semester</label>
+            <input type="text" name="sem" id="" class="form-control" value="{{selsem}}" disabled><br>
+
+            {% else %}
+            <label for="">Select Semester</label>
+            <select name="sem" id="" class="form-control" onchange="this.form.submit()">
+                <option value="">Select Semester</option>
+                {% for i in sem %}
+                <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select><br>
+            {%endif%}
+
+            <label for="">Select Subject</label>
+            <select name="sub" id="" class="form-control">
+                {% for i in sub %}
+                <option value="{{i.sub_name}}">{{i.sub_name}}</option>
+                {% endfor %}
+            </select><br>
+
+
+            <label for="">Date</label>
+            <input type="date" name="date" id="" class="form-control"><br>
+
+            <label for="">Start Time</label>
+            <input type="time" name="start_time" class="form-control" id=""><br>
+
+            <label for="">End Time</label>
+            <input type="time" name="end_time" id="" class="form-control"><br>
+
+            <hr>
+
+            <button class="btn btn-dark">Submit</button>
+        </form>
+
+        <div class="mt-5">
+            <div class="h3">Scheduled Subjects</div>
+            <br>
+            
+                <table class="table">
+                    <tr>
+                        <th>SL</th>
+                        <th>Sub Code</th>
+                        <th>Subject Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                    {% for i in sheduled %}
+                    <tr>
+                        <td>{{i.id}}</td>
+                        <td>{{i.sub_code.sub_code}}</td>
+                        <td>{{i.sub_code.sub_name}}</td>
+                        <td>{{i.date}}</td>
+                        <td>{{i.from_time}}-{{i.to_time}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+        </div>
+    </div>
+
+{% endblock %}

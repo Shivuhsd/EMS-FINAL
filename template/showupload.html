@@ -1,0 +1,35 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">USN</th>
+                <th scope="col">Name</th>
+                <th scope="col">F_Name</th>
+                <th scope="col">M_Name</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">DOB</th>
+                <th scope="col">Course</th>
+                <th scope="col">Department</th>
+              </tr>
+            </thead>
+            <tbody>
+                {% for form in form %}
+              <tr>
+                <td>{{form.usn}}</td>
+                <td>{{form.name}}</td>
+                <td>{{form.father_name}}</td>
+                <td>{{form.mother_name}}</td>
+                <td>{{form.mobile}}</td>
+                <td>{{form.dob}}</td>
+                <td>{{form.course}}</td>
+                <td>{{form.dept_name}}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+    </div>
+{% endblock %}

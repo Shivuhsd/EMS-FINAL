@@ -1,0 +1,37 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+
+<div class="container p-5">
+    <div class="h3">
+        Student Eligibility Form
+    </div>
+
+    <div>
+        <table class="table">
+            <tr>
+                <th>Course</th>
+                <th>USN</th>
+                <th>Name</th>
+                <th>Eligibility</th>
+            </tr>
+            {%for i in data %}
+            <tr>
+                <td>{{i.course}}</td>
+                <td>{{i.usn}}</td>
+                <td>{{i.name}}</td>
+                <td><a href="{%url 'studentelidetail' i.id %}"><button class="btn btn-dark">Select</button></a></td>
+            </tr>
+            {%endfor%}
+        </table>
+    </div>
+</div>
+
+<script>
+    document.getElementById('id_name').className = 'form-control'
+    document.getElementById('id_course_id').className = 'form-control'
+    document.getElementById('id_sems').className = 'form-control'
+    document.getElementById('id_dept').className = 'form-control'
+</script>
+{% endblock %}

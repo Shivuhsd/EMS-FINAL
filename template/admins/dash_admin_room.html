@@ -1,0 +1,20 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+<div class="container py-4">
+    <div class="h3 py-4">
+        Add Room
+    </div>
+    <form action="" method="POST" class="form-control shadow py-4">
+        {% csrf_token %}
+        <label for="">Room Number</label>
+        <input type="text" placeholder="Room Number" name="num" class="form-control">
+        <br>
+        <label for="">Capacity</label>
+        <input type="number" name="capacity" class="form-control" placeholder="Capacity">
+        <br><br>
+        <button class="btn btn-dark">Submit</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container p-5">
+        <h4>Available Departments</h4><br>
+        <hr>
+        <br>
+
+        <table class="table text-center table-border">
+            <tr>
+                <th>Department Name</th>
+                <th>Action</th>
+            </tr>
+
+        
+        {% for dept in dept %}
+                <tr>
+                    <td>{{dept.name}}</td>
+                    <td><a href="{% url 'selcor' dept.id %}"><button class="btn btn-dark">Select</button></a><br><br></td>
+                </tr>
+        {% endfor %}
+    </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,100 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .full{
+          background-color: white;
+        }
+      
+      
+        .top{
+          margin-top: 20px;
+          text-align: center;
+        }
+      
+        .ins{
+          display: flex;
+          justify-content: space-between;
+          margin: 20px;
+        }
+      
+        table{
+            width: 90%;
+            text-align: center;
+        }
+      
+      
+        table,th, td{
+          border: 1px solid black;
+          padding-top: 1px;
+        }
+      </style>
+      
+</head>
+<body>
+    
+<div class="full shadow">
+    <div class="top">
+        <p>JSS MAHAVIDYAPEETA <br>JSS Science and Technology University <br> JSSTI Campus Mysore 570006 <br>ADMISSION TICKET <br>Examination 2023-24</p>
+    </div>
+
+      <div class="pho" style="align-items: left;">
+        <img src="{{pho.photo.path}}" alt="" style="width: 140px;" name="Something">
+      </div>
+      
+
+    
+   
+        <p><b>Programme: </b>{{sd.course}}---
+        <b>College Code: 1</b>001---
+        <b>Student's Name: </b>{{sd.name}} <br>
+        <b>USN: </b>{{sd.usn}} <br>
+        </p>
+  
+
+
+    <div class="schedule">
+      <p class="tit" style="text-align: center;">Subjects/Paper Appearing</p>
+
+      <table>
+        <tr>
+          <th>Sem</th>
+          <th>Subject-Code</th>
+          <th>Subject Title</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Answer Booklet Number</th>
+          <th>Invigilator Signature</th>
+        </tr>
+
+        {% for datas in data %}
+        <tr>
+          <td>{{datas.sem}}</td>
+          <td>{{datas.sub_code.sub_code}}</td>
+          <td>{{datas.sub_code.sub_name}}</td>
+          <td>{{datas.date}}</td>
+          <td>{{datas.from_time}}--{{datas.to_time}}</td>
+          <td></td>
+          <td></td>
+        </tr>
+        {%endfor%}
+      </table>
+    </div>
+
+
+    <div class="ins" style="margin: 30px;margin-top: 40px;">
+      <p>1.Student must report at examination Venue (Theory/practical) 15 minutes prior to the examination time.</p>
+      <p>2.Student is responsible to carry the stationary required for the examination. No exchange of stationary will be allowed in the Exam Hall.</p>
+      <p>3.Student must not carry any study material / smart device / any electronic gadget inside the exam hall. If any student is found with prohibited material during examination strict action will be taken against the student as per the policy.</p>
+      <br><br><br><br><br><br>
+      <p>Student Signature</p>
+    </div>
+
+</div>
+</body>
+</html>

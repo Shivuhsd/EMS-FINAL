@@ -1,0 +1,30 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container p-5">
+        <h3>Department: {{data.dept_name}}</h3>
+        <br>
+        <div>
+            <form action="" method="POST" class="form-control">
+                {%csrf_token%}
+                <label for="">USN</label>
+                <input type="text" value="{{data.usn}}" disabled class="form-control"><br>
+
+                <label for="">Name</label>
+                <input type="text" value="{{data.name}}" disabled class="form-control"><br>
+
+                <label for="">Course</label>
+                <input type="text" class="form-control" id="" disabled value="{{data.course}}"><br>
+
+                <label for="">Semester</label>
+                <input type="text" value="{{data.sem}}" id="" disabled class="form-control"><br>
+
+                <label for="">Eligibility</label>
+                <input  type="checkbox" name="eli" checked class="form-group"><br><br>
+
+                <button class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

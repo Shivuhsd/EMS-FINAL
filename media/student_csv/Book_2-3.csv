@@ -1,0 +1,201 @@
+USN,Name,Department,Course,Father Name,DOB,Mother Name,Phone,Sem
+02JST22PMC001,Gauraw,Computer Application,MCA,Rangappa,2001-02-11,Vijaya,9987562347,1
+02JST22PMC002,Raj,Computer Application,MCA,Rajanna,2001-02-12,Nalini,9987562349,1
+02JST22PMC003,Rama,Computer Application,MCA,Lokesh,2001-02-13,Rekha,9987562351,1
+02JST22PMC004,Sadhu,Computer Application,MCA,Sunder,2001-02-14,Roopa,9987562353,1
+02JST22PMC005,Shankar,Computer Application,MCA,Suresh,2001-02-15,Pushpa,9987562355,1
+02JST22PMC006,Bala,Computer Application,MCA,Basavaraj,2001-02-16,Vijaya,9987562357,1
+02JST22PMC007,Krishna,Computer Application,MCA,Kalidas,2001-02-17,Nalini,9987562359,1
+02JST22PMC008,Muruli,Computer Application,MCA,Karna,2001-02-18,Rekha,9987562361,1
+02JST22PMC009,Raghav,Computer Application,MCA,Arjun,2001-02-19,Roopa,9987562363,1
+02JST22PMC010,Puneet,Computer Application,MCA,Balram,2001-02-20,Pushpa,9987562365,1
+02JST22PMC011,Preetham,Computer Application,MCA,Rangappa,2001-02-21,Vijaya,9987562367,1
+02JST22PMC012,Vivek,Computer Application,MCA,Rajanna,2001-02-22,Nalini,9987562369,1
+02JST22PMC013,Anjan,Computer Application,MCA,Lokesh,2001-02-23,Rekha,9987562371,1
+02JST22PMC014,Madhu,Computer Application,MCA,Sunder,2001-02-24,Roopa,9987562373,1
+02JST22PMC015,Prema,Computer Application,MCA,Suresh,2001-02-25,Pushpa,9987562375,1
+02JST22PMC016,Priya,Computer Application,MCA,Basavaraj,2001-02-26,Vijaya,9987562377,1
+02JST22PMC017,Soundarya,Computer Application,MCA,Kalidas,2001-02-27,Nalini,9987562379,1
+02JST22PMC018,Ragini,Computer Application,MCA,Karna,2001-02-28,Rekha,9987562381,1
+02JST22PMC019,Malashree,Computer Application,MCA,Arjun,2001-03-01,Roopa,9987562383,1
+02JST22PMC020,Gauraw,Computer Application,MCA,Balram,2001-03-02,Pushpa,9987562385,1
+02JST22PMC021,Raj,Computer Application,MCA,Rangappa,2001-03-03,Vijaya,9987562387,1
+02JST22PMC022,Rama,Computer Application,MCA,Rajanna,2001-03-04,Nalini,9987562389,1
+02JST22PMC023,Sadhu,Computer Application,MCA,Lokesh,2001-03-05,Rekha,9987562391,1
+02JST22PMC024,Shankar,Computer Application,MCA,Sunder,2001-03-06,Roopa,9987562393,1
+02JST22PMC025,Bala,Computer Application,MCA,Suresh,2001-03-07,Pushpa,9987562395,1
+02JST22PMC026,Krishna,Computer Application,MCA,Basavaraj,2001-03-08,Vijaya,9987562397,1
+02JST22PMC027,Muruli,Computer Application,MCA,Kalidas,2001-03-09,Nalini,9987562399,1
+02JST22PMC028,Raghav,Computer Application,MCA,Karna,2001-03-10,Rekha,9987562401,1
+02JST22PMC029,Puneet,Computer Application,MCA,Arjun,2001-03-11,Roopa,9987562403,1
+02JST22PMC030,Preetham,Computer Application,MCA,Balram,2001-03-12,Pushpa,9987562405,1
+02JST22PMC031,Vivek,Computer Application,MCA,Rangappa,2001-03-13,Vijaya,9987562407,1
+02JST22PMC032,Anjan,Computer Application,MCA,Rajanna,2001-03-14,Nalini,9987562409,1
+02JST22PMC033,Madhu,Computer Application,MCA,Lokesh,2001-03-15,Rekha,9987562411,1
+02JST22PMC034,Prema,Computer Application,MCA,Sunder,2001-03-16,Roopa,9987562413,1
+02JST22PMC035,Priya,Computer Application,MCA,Suresh,2001-03-17,Pushpa,9987562415,1
+02JST22PMC036,Soundarya,Computer Application,MCA,Basavaraj,2001-03-18,Vijaya,9987562417,1
+02JST22PMC037,Ragini,Computer Application,MCA,Kalidas,2001-03-19,Nalini,9987562419,1
+02JST22PMC038,Malashree,Computer Application,MCA,Karna,2001-03-20,Rekha,9987562421,1
+02JST22PMC039,Gauraw,Computer Application,MCA,Arjun,2001-03-21,Roopa,9987562423,1
+02JST22PMC040,Raj,Computer Application,MCA,Balram,2001-03-22,Pushpa,9987562425,2
+02JST22PMC041,Rama,Computer Application,MCA,Rangappa,2001-03-23,Vijaya,9987562427,2
+02JST22PMC042,Sadhu,Computer Application,MCA,Rajanna,2001-03-24,Nalini,9987562429,2
+02JST22PMC043,Shankar,Computer Application,MCA,Lokesh,2001-03-25,Rekha,9987562431,2
+02JST22PMC044,Bala,Computer Application,MCA,Sunder,2001-03-26,Roopa,9987562433,2
+02JST22PMC045,Krishna,Computer Application,MCA,Suresh,2001-03-27,Pushpa,9987562435,2
+02JST22PMC046,Muruli,Computer Application,MCA,Basavaraj,2001-03-28,Vijaya,9987562437,2
+02JST22PMC047,Raghav,Computer Application,MCA,Kalidas,2001-03-29,Nalini,9987562439,2
+02JST22PMC048,Puneet,Computer Application,MCA,Karna,2001-03-30,Rekha,9987562441,2
+02JST22PMC049,Preetham,Computer Application,MCA,Arjun,2001-03-31,Roopa,9987562443,2
+02JST22PMC050,Vivek,Computer Application,MCA,Balram,2001-04-01,Pushpa,9987562445,2
+02JST22PMC051,Anjan,Computer Application,MCA,Rangappa,2001-04-02,Vijaya,9987562447,2
+02JST22PMC052,Madhu,Computer Application,MCA,Rajanna,2001-04-03,Nalini,9987562449,2
+02JST22PMC053,Prema,Computer Application,MCA,Lokesh,2001-04-04,Rekha,9987562451,2
+02JST22PMC054,Priya,Computer Application,MCA,Sunder,2001-04-05,Roopa,9987562453,2
+02JST22PMC055,Soundarya,Computer Application,MCA,Suresh,2001-04-06,Pushpa,9987562455,2
+02JST22PMC056,Ragini,Computer Application,MCA,Basavaraj,2001-04-07,Vijaya,9987562457,2
+02JST22PMC057,Malashree,Computer Application,MCA,Kalidas,2001-04-08,Nalini,9987562459,2
+02JST22PMC058,Gauraw,Computer Application,MCA,Karna,2001-04-09,Rekha,9987562461,2
+02JST22PMC059,Raj,Computer Application,MCA,Arjun,2001-04-10,Roopa,9987562463,2
+02JST22PMC060,Rama,Computer Application,MCA,Balram,2001-04-11,Pushpa,9987562465,2
+02JST22PMC061,Sadhu,Computer Application,MCA,Rangappa,2001-04-12,Vijaya,9987562467,2
+02JST22PMC062,Shankar,Computer Application,MCA,Rajanna,2001-04-13,Nalini,9987562469,2
+02JST22PMC063,Bala,Computer Application,MCA,Lokesh,2001-04-14,Rekha,9987562471,2
+02JST22PMC064,Krishna,Computer Application,MCA,Sunder,2001-04-15,Roopa,9987562473,2
+02JST22PMC065,Muruli,Computer Application,MCA,Suresh,2001-04-16,Pushpa,9987562475,2
+02JST22PMC066,Raghav,Computer Application,MCA,Basavaraj,2001-04-17,Vijaya,9987562477,2
+02JST22PMC067,Puneet,Computer Application,MCA,Kalidas,2001-04-18,Nalini,9987562479,2
+02JST22PMC068,Preetham,Computer Application,MCA,Karna,2001-04-19,Rekha,9987562481,2
+02JST22PMC069,Vivek,Computer Application,MCA,Arjun,2001-04-20,Roopa,9987562483,2
+02JST22PMC070,Anjan,Computer Application,MCA,Balram,2001-04-21,Pushpa,9987562485,2
+02JST22PMC071,Madhu,Computer Application,MCA,Rangappa,2001-04-22,Vijaya,9987562487,2
+02JST22PMC072,Prema,Computer Application,MCA,Rajanna,2001-04-23,Nalini,9987562489,2
+02JST22PMC073,Priya,Computer Application,MCA,Lokesh,2001-04-24,Rekha,9987562491,2
+02JST22PMC074,Soundarya,Computer Application,MCA,Sunder,2001-04-25,Roopa,9987562493,2
+02JST22PMC075,Ragini,Computer Application,MCA,Suresh,2001-04-26,Pushpa,9987562495,2
+02JST22PMC076,Malashree,Computer Application,MCA,Basavaraj,2001-04-27,Vijaya,9987562497,2
+02JST22PMC077,Gauraw,Computer Application,MCA,Kalidas,2001-04-28,Nalini,9987562499,2
+02JST22PMC078,Raj,Computer Application,MCA,Karna,2001-04-29,Rekha,9987562501,2
+02JST22PMC079,Rama,Computer Application,MCA,Arjun,2001-04-30,Roopa,9987562503,2
+02JST22PMC080,Sadhu,Computer Application,MCA,Balram,2001-05-01,Pushpa,9987562505,2
+02JST22PMC081,Shankar,Computer Application,MCA,Rangappa,2001-05-02,Vijaya,9987562507,2
+02JST22PMC082,Bala,Computer Application,MCA,Rajanna,2001-05-03,Nalini,9987562509,2
+02JST22PMC083,Krishna,Computer Application,MCA,Lokesh,2001-05-04,Rekha,9987562511,2
+02JST22PMC084,Muruli,Computer Application,MCA,Sunder,2001-05-05,Roopa,9987562513,2
+02JST22PMC085,Gauraw,Computer Application,MCA,Suresh,2001-05-06,Pushpa,9987562515,2
+02JST22PMC086,Raj,Computer Application,MCA,Basavaraj,2001-05-07,Vijaya,9987562517,2
+02JST22PMC087,Rama,Computer Application,MCA,Kalidas,2001-05-08,Nalini,9987562519,2
+02JST22PMC088,Sadhu,Computer Application,MCA,Karna,2001-05-09,Rekha,9987562521,2
+02JST22PMC089,Shankar,Computer Application,MCA,Arjun,2001-05-10,Roopa,9987562523,2
+02JST22PMC090,Bala,Computer Application,MCA,Balram,2001-05-11,Pushpa,9987562525,2
+02JST22PMC091,Krishna,Computer Application,MCA,Rangappa,2001-05-12,Vijaya,9987562527,2
+02JST22PMC092,Muruli,Computer Application,MCA,Rajanna,2001-05-13,Nalini,9987562529,2
+02JST22PMC093,Raghav,Computer Application,MCA,Lokesh,2001-05-14,Rekha,9987562531,2
+02JST22PMC094,Puneet,Computer Application,MCA,Sunder,2001-05-15,Roopa,9987562533,2
+02JST22PMC095,Preetham,Computer Application,MCA,Suresh,2001-05-16,Pushpa,9987562535,2
+02JST22PMC096,Vivek,Computer Application,MCA,Basavaraj,2001-05-17,Vijaya,9987562537,2
+02JST22PMC097,Anjan,Computer Application,MCA,Kalidas,2001-05-18,Nalini,9987562539,2
+02JST22PMC098,Madhu,Computer Application,MCA,Karna,2001-05-19,Rekha,9987562541,2
+02JST22PMC099,Prema,Computer Application,MCA,Arjun,2001-05-20,Roopa,9987562543,2
+02JST22PMC100,Priya,Management,MBA,Balram,2001-05-21,Pushpa,9987562545,1
+02JST22PMC101,Soundarya,Management,MBA,Rangappa,2001-05-22,Vijaya,9987562547,1
+02JST22PMC102,Ragini,Management,MBA,Rajanna,2001-05-23,Nalini,9987562549,1
+02JST22PMC103,Malashree,Management,MBA,Lokesh,2001-05-24,Rekha,9987562551,1
+02JST22PMC104,Gauraw,Management,MBA,Sunder,2001-05-25,Roopa,9987562553,1
+02JST22PMC105,Raj,Management,MBA,Suresh,2001-05-26,Pushpa,9987562555,1
+02JST22PMC106,Rama,Management,MBA,Basavaraj,2001-05-27,Vijaya,9987562557,1
+02JST22PMC107,Sadhu,Management,MBA,Kalidas,2001-05-28,Nalini,9987562559,1
+02JST22PMC108,Shankar,Management,MBA,Karna,2001-05-29,Rekha,9987562561,1
+02JST22PMC109,Bala,Management,MBA,Arjun,2001-05-30,Roopa,9987562563,1
+02JST22PMC110,Krishna,Management,MBA,Balram,2001-05-31,Pushpa,9987562565,1
+02JST22PMC111,Muruli,Management,MBA,Rangappa,2001-06-01,Vijaya,9987562567,1
+02JST22PMC112,Raghav,Management,MBA,Rajanna,2001-06-02,Nalini,9987562569,1
+02JST22PMC113,Puneet,Management,MBA,Lokesh,2001-06-03,Rekha,9987562571,1
+02JST22PMC114,Preetham,Management,MBA,Sunder,2001-06-04,Roopa,9987562573,1
+02JST22PMC115,Vivek,Management,MBA,Suresh,2001-06-05,Pushpa,9987562575,1
+02JST22PMC116,Anjan,Management,MBA,Basavaraj,2001-06-06,Vijaya,9987562577,1
+02JST22PMC117,Madhu,Management,MBA,Kalidas,2001-06-07,Nalini,9987562579,1
+02JST22PMC118,Prema,Management,MBA,Karna,2001-06-08,Rekha,9987562581,1
+02JST22PMC119,Priya,Management,MBA,Arjun,2001-06-09,Roopa,9987562583,1
+02JST22PMC120,Soundarya,Management,MBA,Balram,2001-06-10,Pushpa,9987562585,1
+02JST22PMC121,Ragini,Management,MBA,Rangappa,2001-06-11,Vijaya,9987562587,1
+02JST22PMC122,Malashree,Management,MBA,Rajanna,2001-06-12,Nalini,9987562589,1
+02JST22PMC123,Gauraw,Management,MBA,Lokesh,2001-06-13,Rekha,9987562591,1
+02JST22PMC124,Raj,Management,MBA,Sunder,2001-06-14,Roopa,9987562593,1
+02JST22PMC125,Rama,Management,MBA,Suresh,2001-06-15,Pushpa,9987562595,1
+02JST22PMC126,Sadhu,Management,MBA,Basavaraj,2001-06-16,Vijaya,9987562597,1
+02JST22PMC127,Shankar,Management,MBA,Kalidas,2001-06-17,Nalini,9987562599,1
+02JST22PMC128,Bala,Management,MBA,Karna,2001-06-18,Rekha,9987562601,1
+02JST22PMC129,Krishna,Management,MBA,Arjun,2001-06-19,Roopa,9987562603,1
+02JST22PMC130,Muruli,Management,MBA,Balram,2001-06-20,Pushpa,9987562605,1
+02JST22PMC131,Gauraw,Management,MBA,Rangappa,2001-06-21,Vijaya,9987562607,1
+02JST22PMC132,Raj,Management,MBA,Rajanna,2001-06-22,Nalini,9987562609,1
+02JST22PMC133,Rama,Management,MBA,Lokesh,2001-06-23,Rekha,9987562611,1
+02JST22PMC134,Sadhu,Management,MBA,Sunder,2001-06-24,Roopa,9987562613,1
+02JST22PMC135,Shankar,Management,MBA,Suresh,2001-06-25,Pushpa,9987562615,1
+02JST22PMC136,Bala,Management,MBA,Basavaraj,2001-06-26,Vijaya,9987562617,1
+02JST22PMC137,Krishna,Management,MBA,Kalidas,2001-06-27,Nalini,9987562619,1
+02JST22PMC138,Muruli,Management,MBA,Karna,2001-06-28,Rekha,9987562621,1
+02JST22PMC139,Raghav,Management,MBA,Arjun,2001-06-29,Roopa,9987562623,1
+02JST22PMC140,Puneet,Management,MBA,Balram,2001-06-30,Pushpa,9987562625,1
+02JST22PMC141,Preetham,Management,MBA,Rangappa,2001-07-01,Vijaya,9987562627,1
+02JST22PMC142,Vivek,Management,MBA,Rajanna,2001-07-02,Nalini,9987562629,1
+02JST22PMC143,Anjan,Management,MBA,Lokesh,2001-07-03,Rekha,9987562631,1
+02JST22PMC144,Madhu,Management,MBA,Sunder,2001-07-04,Roopa,9987562633,1
+02JST22PMC145,Prema,Management,MBA,Suresh,2001-07-05,Pushpa,9987562635,1
+02JST22PMC146,Priya,Management,MBA,Basavaraj,2001-07-06,Vijaya,9987562637,1
+02JST22PMC147,Soundarya,Management,MBA,Kalidas,2001-07-07,Nalini,9987562639,1
+02JST22PMC148,Ragini,Management,MBA,Karna,2001-07-08,Rekha,9987562641,1
+02JST22PMC149,Malashree,Management,MBA,Arjun,2001-07-09,Roopa,9987562643,1
+02JST22PMC150,Gauraw,Management,MBA,Balram,2001-07-10,Pushpa,9987562645,2
+02JST22PMC151,Raj,Management,MBA,Rangappa,2001-07-11,Vijaya,9987562647,2
+02JST22PMC152,Rama,Management,MBA,Rajanna,2001-07-12,Nalini,9987562649,2
+02JST22PMC153,Sadhu,Management,MBA,Lokesh,2001-07-13,Rekha,9987562651,2
+02JST22PMC154,Shankar,Management,MBA,Sunder,2001-07-14,Roopa,9987562653,2
+02JST22PMC155,Bala,Management,MBA,Suresh,2001-07-15,Pushpa,9987562655,2
+02JST22PMC156,Krishna,Management,MBA,Basavaraj,2001-07-16,Vijaya,9987562657,2
+02JST22PMC157,Muruli,Management,MBA,Kalidas,2001-07-17,Nalini,9987562659,2
+02JST22PMC158,Raghav,Management,MBA,Karna,2001-07-18,Rekha,9987562661,2
+02JST22PMC159,Puneet,Management,MBA,Arjun,2001-07-19,Roopa,9987562663,2
+02JST22PMC160,Preetham,Management,MBA,Balram,2001-07-20,Pushpa,9987562665,2
+02JST22PMC161,Vivek,Management,MBA,Rangappa,2001-07-21,Vijaya,9987562667,2
+02JST22PMC162,Anjan,Management,MBA,Rajanna,2001-07-22,Nalini,9987562669,2
+02JST22PMC163,Madhu,Management,MBA,Lokesh,2001-07-23,Rekha,9987562671,2
+02JST22PMC164,Prema,Management,MBA,Sunder,2001-07-24,Roopa,9987562673,2
+02JST22PMC165,Priya,Management,MBA,Suresh,2001-07-25,Pushpa,9987562675,2
+02JST22PMC166,Soundarya,Management,MBA,Basavaraj,2001-07-26,Vijaya,9987562677,2
+02JST22PMC167,Ragini,Management,MBA,Kalidas,2001-07-27,Nalini,9987562679,2
+02JST22PMC168,Malashree,Management,MBA,Karna,2001-07-28,Rekha,9987562681,2
+02JST22PMC169,Gauraw,Management,MBA,Arjun,2001-07-29,Roopa,9987562683,2
+02JST22PMC170,Raj,Management,MBA,Balram,2001-07-30,Pushpa,9987562685,2
+02JST22PMC171,Rama,Management,MBA,Rangappa,2001-07-31,Vijaya,9987562687,2
+02JST22PMC172,Sadhu,Management,MBA,Rajanna,2001-08-01,Nalini,9987562689,2
+02JST22PMC173,Shankar,Management,MBA,Lokesh,2001-08-02,Rekha,9987562691,2
+02JST22PMC174,Bala,Management,MBA,Sunder,2001-08-03,Roopa,9987562693,2
+02JST22PMC175,Krishna,Management,MBA,Suresh,2001-08-04,Pushpa,9987562695,2
+02JST22PMC176,Muruli,Management,MBA,Basavaraj,2001-08-05,Vijaya,9987562697,2
+02JST22PMC177,Gauraw,Management,MBA,Kalidas,2001-08-06,Nalini,9987562699,2
+02JST22PMC178,Raj,Management,MBA,Karna,2001-08-07,Rekha,9987562701,2
+02JST22PMC179,Rama,Management,MBA,Arjun,2001-08-08,Roopa,9987562703,2
+02JST22PMC180,Sadhu,Management,MBA,Balram,2001-08-09,Pushpa,9987562705,2
+02JST22PMC181,Shankar,Management,MBA,Rangappa,2001-08-10,Vijaya,9987562707,2
+02JST22PMC182,Bala,Management,MBA,Rajanna,2001-08-11,Nalini,9987562709,2
+02JST22PMC183,Krishna,Management,MBA,Lokesh,2001-08-12,Rekha,9987562711,2
+02JST22PMC184,Muruli,Management,MBA,Sunder,2001-08-13,Roopa,9987562713,2
+02JST22PMC185,Raghav,Management,MBA,Suresh,2001-08-14,Pushpa,9987562715,2
+02JST22PMC186,Puneet,Management,MBA,Basavaraj,2001-08-15,Vijaya,9987562717,2
+02JST22PMC187,Preetham,Management,MBA,Kalidas,2001-08-16,Nalini,9987562719,2
+02JST22PMC188,Vivek,Management,MBA,Karna,2001-08-17,Rekha,9987562721,2
+02JST22PMC189,Anjan,Management,MBA,Arjun,2001-08-18,Roopa,9987562723,2
+02JST22PMC190,Madhu,Management,MBA,Balram,2001-08-19,Pushpa,9987562725,2
+02JST22PMC191,Prema,Management,MBA,Rangappa,2001-08-20,Vijaya,9987562727,2
+02JST22PMC192,Priya,Management,MBA,Rajanna,2001-08-21,Nalini,9987562729,2
+02JST22PMC193,Soundarya,Management,MBA,Lokesh,2001-08-22,Rekha,9987562731,2
+02JST22PMC194,Ragini,Management,MBA,Sunder,2001-08-23,Roopa,9987562733,2
+02JST22PMC195,Malashree,Management,MBA,Suresh,2001-08-24,Pushpa,9987562735,2
+02JST22PMC196,Gauraw,Management,MBA,Basavaraj,2001-08-25,Vijaya,9987562737,2
+02JST22PMC197,Raj,Management,MBA,Kalidas,2001-08-26,Nalini,9987562739,2
+02JST22PMC198,Rama,Management,MBA,Karna,2001-08-27,Rekha,9987562741,2
+02JST22PMC199,Sadhu,Management,MBA,Arjun,2001-08-28,Roopa,9987562743,2
+02JST22PMC200,Shankar,Management,MBA,Balram,2001-08-29,Pushpa,9987562745,2

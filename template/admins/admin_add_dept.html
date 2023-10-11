@@ -1,0 +1,21 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+
+<div class="container py-4">
+    <div class="h3 py-4">
+        Add Department
+    </div>
+    <form action="" method="POST" class="form-control shadow py-4">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-dark">Submit</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById('id_name').className = 'form-control'
+</script>
+    
+{% endblock %}

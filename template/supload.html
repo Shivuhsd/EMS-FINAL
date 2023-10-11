@@ -1,0 +1,12 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container">
+        <form action="" method="POST" enctype="multipart/form-data" class="form-control">
+            {% csrf_token %}
+            {{form.as_p}}
+            <button class="btn btn-dark">Upload</button>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends 'dashboard.html' %}
+{% load static %}
+
+{% block dash %}
+
+    <div class="container py-5">
+        <h3>Profile</h3>
+
+            {% if photo.photo %}
+            <img src="{{photo.photo.url}}" alt="" class="img-fluid" style="width: 200px;">
+        
+        {% else %}
+
+        <form action="" method="POST" enctype="multipart/form-data" class="form-control py-4" aria-required="true">
+            {% csrf_token %}
+            <label for="">Profile Photo</label>
+            <input type="file" class="form-control" name="photo"><br>
+            <button class="btn btn-dark">Submit</button>
+        </form>
+        {%endif%}
+            <br><br>
+            <br>
+            <label for="">USN</label>
+            <input type="text" name="" id="" value="{{data.usn}}" disabled class="form-control"><br>
+        
+            <label for="">Name</label>
+            <input type="text" name="" id="" value="{{data.name}}" disabled class="form-control"><br>
+
+            <label for="">Father Name</label>
+            <input type="text" name="" id="" value="{{data.father_name}}" disabled class="form-control"><br>
+
+            <label for="">Mother Name</label>
+            <input type="text" name="" id="" value="{{data.mother_name}}" disabled class="form-control"><br>
+
+            <label for="">Department</label>
+            <input type="text" name="" id="" value="{{data.dept_name}}" disabled class="form-control"><br>
+
+            <label for="">Course</label>
+            <input type="text" name="" id="" value="{{data.course}}" disabled class="form-control"><br>
+
+            <label for="">DOB</label>
+            <input type="text" name="" id="" value="{{data.dob}}" disabled class="form-control"><br>
+
+            <label for="">Mobile Number</label>
+            <input type="text" name="" id="" value="{{data.mobile}}" disabled class="form-control"><br>
+    </div>
+
+
+    <script>
+        document.getElementById('id_photo').className='form-control';
+    </script>
+{% endblock %}
+

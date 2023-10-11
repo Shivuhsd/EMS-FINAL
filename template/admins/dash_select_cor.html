@@ -1,0 +1,39 @@
+
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container p-5">
+
+        <div>
+            <div class="h3">
+                Select Course
+            </div>
+        </div>
+
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Department</th>
+                    <th>Course</th>
+                    <th>Course ID</th>
+                    <th>Semester</th>
+                    <th>Action</th>
+                </tr>
+
+                {% for cor in course %}
+                    <tr>
+                        <td>{{dp.name}}</td>
+                        <td>{{cor.name}}</td>
+                        <td>{{cor.course_id}}</td>
+                        <td>{{cor.sems}}</td>
+                        <td><a href="{% url 'addsubject' dp.id cor.id %}"><button class="btn btn-dark">Select</button></a></td>
+                    </tr>
+                {% endfor %}
+                
+
+            </table>
+        </div>
+       
+    </div>
+{% endblock %}

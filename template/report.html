@@ -1,0 +1,17 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container p-5">
+        <form action="" method="POST" class="form-control">
+            {%csrf_token%}
+            <label for="">USN</label>
+            <input type="text" id="" value="{{request.user.username}}" class="form-control"><br>
+
+            <label for="">Message</label>
+            <textarea name="mes" id="" cols="30" class="form-control" rows="10"></textarea><br>
+            <br>
+            <button class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+{% endblock %}

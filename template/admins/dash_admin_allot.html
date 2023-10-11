@@ -1,0 +1,20 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="containter p-5">
+        <table class="table">
+            <tr>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+
+            {% for i in dates %}
+                <tr>
+                    <td>{{i}}</td>
+                    <td><a href="{% url 'dateallot' i %}"><button class="btn btn-dark">Details</button></a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}

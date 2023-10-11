@@ -1,0 +1,40 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container p-5">
+
+        {%for i in data%}
+        <p>
+            {{i.usr.username}}----{{i.first_name}}
+            <button onclick="show()" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+             Reply
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div>
+                <h6>Message: </h6>
+                <p>{{i.message}}</p>
+            </div>
+            <div id="rep">
+                <form action="" method="POST" class="form-control">
+                    {%csrf_token%}
+                    <label for="">Reply Message</label>
+                    <textarea name="mes" class="form-control" id="" cols="30" rows="10"></textarea><br><br>
+                    <button class="btn btn-dark">Send</button>
+                </form>
+            </div>
+          </div>
+          <hr><br>
+          {%endfor%}
+
+       
+    </div>
+
+    <script>
+        function show()
+        {
+            document.getElementById('rep').display = 'block';
+        }
+    </script>
+{% endblock %}

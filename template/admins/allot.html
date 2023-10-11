@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Seat Allocation PDF</title>
+
+    <style>
+        table, td, tr{
+            border: 1px solid black;
+            padding: 1px;
+        }
+
+        .top{
+            text-align: center;
+        }
+
+        .tle{
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        .sub{
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+        <div class="top">
+            <p class="tle">JSS SCIENCE AND TECHNOLOGY UNIVERSITY</p>
+            <p class="sub">Semester Examination 2023-24</p>
+            <p>Seat Allotment Information PDF</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Seat Number</th>
+                <th>USN</th>
+                <th>Faculty</th>
+                <th>Course</th>
+                <th>Room Number</th>
+            </tr>
+
+            {%for i in data %}
+                <tr>
+                    <td>{{i.st.seat}}</td>
+                    <td>{{i.st.student.usn}}</td>
+                    <td>{{i.staff.uid.username}}</td>
+                    <td>{{i.st.cour}}</td>
+                    <td>{{i.room.room_number}}</td>
+                </tr>
+            {%endfor%}
+        </table>
+    </div>
+</body>
+</html>

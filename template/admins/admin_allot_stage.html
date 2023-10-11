@@ -1,0 +1,52 @@
+{% extends 'dashboard.html' %}
+
+
+{% block dash %}
+    <div class="container p-5">
+        <h3>
+            Details:
+        </h3><br>
+        <table class="table">
+            <tr>
+                <th>Sem</th>
+                <th>Date</th>
+                <th>Subject Name</th>
+                <th>Subject Code</th>
+                <th>Department</th>
+                <th>Course</th>
+                <th>Time</th>
+            </tr>
+            {% for i in sub %}
+                <tr>
+                    <td>{{i.sem}}</td>
+                    <td>{{i.date}}</td>
+                    <td>{{i.sub_code.sub_name}}</td>
+                    <td>{{i.sub_code.sub_code}}</td>
+                    <td>{{i.detp}}</td>
+                    <td>{{i.course}}</td>
+                    <td>{{i.from_time}}--{{i.to_time}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <br>
+        <ul class='form-control px-5'>
+            {% for i in dct.values %}
+            <li><p><b>{{i}} Students</b></p></li>
+            {% endfor %}
+        </ul>
+        <p>Total Number of Students: {{sum}}</p>
+        <p>Total Capacity of Rooms : {{cap}} <span class="text-danger">{% if sr %}   -----{{sr}} -- <a href="{% url 'addroom'  %}">addrooms</a>{%endif%}</span></p>
+        <p>Total Number of Rooms Available: {{no_r}}</p>
+        <p>Total Number of Staff Available: {{s_num}} <span class="text-danger">{% if s_num < no_r %} -----Staff is Less <a href="{% url 'addstaff' %}"> add more Staff</a>---- {%endif%}</span></p>
+      
+        <br>
+        <br><hr>
+        {% if cap >= sum and s_num >= no_r%}
+        <form action="" method="POST">
+            {% csrf_token %}
+            <button class="btn btn-dark">Allot</button>
+        </form>
+        {%endif%}
+    </div>
+{% endblock %}
